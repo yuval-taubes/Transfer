@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+  }
+  #userShip{
+    position:absolute;
+    transform:translate(-50%,0%);
+    bottom: 15%;
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:2px solid black;
+  }
+  canvas{
+    width: 100vw;
+    height: 100vh;
+    image-rendering: pixelated;
+  }
+  .bomb{
+    background-image: url(../media/Animated-Bomb-PNG.png);
+    width: 100px;
+    height: 100px;
+  }
