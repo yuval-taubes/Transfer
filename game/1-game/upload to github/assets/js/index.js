@@ -111,8 +111,8 @@ setInterval(function () {
 
   objects[0] = circle.getBoundingClientRect();
   getDistace();
-  console.log()
-}, 1000);
+}, 10);
+
 // start animating
 animate();
 
@@ -159,12 +159,11 @@ function animate() {
   }
 }
 function getDistace(){
-  for (let i = 0; i < objects.length; i++){
-    let xdistance = objects[0].x - objects[i].x;
-    let ydistance = objects[0].y - objects[i].y;
+  for (let i = 1; i < objects.length; i++){
+    let xdistance = objects[i].x - objects[0].x;
+    let ydistance = objects[i].y - objects[0].y;
     let pythagoras = Math.sqrt( Math.pow(xdistance, 2) + Math.pow(ydistance, 2))
-    console.log(pythagoras)
-    if(pythagoras < 2 ){
+    if(pythagoras < 300 ){
       console.log("hit we got a hit")
     }
   }
