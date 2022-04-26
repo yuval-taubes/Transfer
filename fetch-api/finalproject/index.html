@@ -19,11 +19,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="assets/scripts/timer.js" defer></script>
+    <script src="assets/scripts/signin.js" defer></script>
 
     <style>
-        .container{
-        }
+
     </style>
 </head>
 
@@ -39,7 +38,7 @@
                     <div class="container">
                     <div class="row">
                         <div class="col2 col2-img">
-
+                            <img src="assets/img/flower.jpg">
                         </div>
                         <div class="col2">
                             <div>
@@ -47,15 +46,17 @@
                             <p>i love little children -coach mcKAy</p>
                         </div>
                             <form>
-                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Name" id="username">
             
-                                <input type="text" placeholder="Email">
-                                <input type="text" placeholder="Phone">
+                                <input type="text" placeholder="Password" id="password">
                                 <div>
                                     <input type="checkbox" name="remeberMe" checked = 'true'>
                                     <label for="vehicle3"> Remeber me</label>
                                 </div>
-                                <input type="submit">
+                                    <button type="button" id="button">Submit</button>
+                                    <div class="error-div">
+                                        <p id="error"></p>
+                                    </div>
                             </form>
                         </div>
                     </div>
