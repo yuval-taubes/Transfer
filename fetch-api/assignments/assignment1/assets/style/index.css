@@ -1,0 +1,80 @@
+@import "base.css";
+
+body{
+    /* background-color: #94D2BD; */
+    background-color: #202126;
+    
+}
+/* -------------------------------------------------------- */
+/* ---------------------- input --------------------------- */
+/* -------------------------------------------------------- */
+.input {
+    width: 85%;
+    height: 50px;
+    background-color: #37383D;
+    padding: 0 15px;
+    font-size: 18px;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 20px 48px 0 rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.button { 
+    width:60%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color:#EE9B00;
+    cursor: pointer;
+    box-shadow: 0 20px 48px 0 rgba(0, 0, 0, 0.1);
+}
+
+.button:hover{
+    background-color: #da8d00;
+}
+.flexContainer{
+    margin: 50px auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.validation{
+    margin: 0 auto;
+    text-align: center;
+    height: 18px;
+}
+.validation p{
+    font-size: 18px;
+    color: #ff3333;
+    line-height: 18px;
+}
+.contact-info{
+    margin: 10px;
+    background-color: #37383D;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 20px 48px 0 rgba(0, 0, 0, .1);
+    border: 1px solid #37383D;
+
+}
+.contact-info:hover{
+    border: 1px solid #ff3333;
+}
+.grid-container{
+    
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contact-text{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}

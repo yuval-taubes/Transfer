@@ -1,0 +1,124 @@
+@import "base.css";
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  main                                                */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #71a0c1;
+    background: white url(../img/chuttersnap-hmWcrTxvAk0-unsplash.jpg) center center / cover no-repeat fixed;
+  }
+  .herobanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.55);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+  }
+  .herotext {
+    text-align: center;
+  }
+  .herotext h2 {
+    color: white;
+    line-height: 90px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 70px;
+  }
+  .herotext h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+body{
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+
+}
+.col2, .col2-1{
+    width: 100%;
+    height: 200px;
+    margin: 35px 0px;
+}
+.col2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 70px);
+
+}
+.col2-1 div h2{
+    font-weight: 400;
+    font-size: 60px;
+}
+.col2-1 div p{
+    margin-top: 20px;
+}
+.col2 + .col2{
+    margin-left: 50px;
+}
+
+.shadow{
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, 0.1);
+    height: 200px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  map                                         */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.map{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: #286FF2;
+
+    
+}
+form{
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    
+}
+input{
+    width: 100%;
+    height: 50px;
+    background-color: #F9FBFC ;
+    padding: 0 15px;
+    font-size: 18px;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 20px 48px 0 rgba(170, 169, 169, 0.1);
+    color: black;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+}
+input[type=submit]{
+    background-color: #286FF2;
+    color: white;
+}
+.space{
+    width: 40%;
+}
+.row + .row{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.signup{
+    font-size: 35px !important;
+}
